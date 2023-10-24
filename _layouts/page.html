@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <title>{{ page.title }} Emanuel Felipe Duarte | IC/UNICAMP</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="keywords" content="Emanuel Felipe Duarte, Professor, Computer Science, Human-Computer Interaction, HCI, Institute of Computing, UNICAMP">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+
+      <a class="image avatar" href="./"><img src="./assets/img/efd.jpg" alt="avatar" /></a>
+
+      <h1>Emanuel Felipe Duarte</h1>
+      <position>Professor</position>
+      <br>
+      <p>IC/UNICAMP</p>
+      <email>emanuel (at) ic.unicamp.br</email>
+
+      <br>
+      <br>
+
+      <div class="social-icons">
+        <a href="https://scholar.google.com/citations?user=Z-sHxyQAAAAJ" title="Google Scholar Profile">
+          <i class="ai ai-google-scholar"></i>
+        </a>  
+
+        <a href="https://lattes.cnpq.br/3718325359953351" title="Lattes Curriculum (Portuguese)">
+          <i class="ai ai-lattes"></i>
+        </a>
+
+        <a href="https://github.com/efduarte">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <br>
+
+    </header>
+    <section>
+
+      <nav>
+        <ul>
+          <li><a href="./" class="{% if page.name == 'index.md' %}active{% endif %}">Home</a></li>
+          <li><a href="./projects.html" class="{% if page.name == 'projects.md' %}active{% endif %}">Projects</a></li>
+          <li><a href="./publications.html" class="{% if page.name == 'publications.md' %}active{% endif %}">Publications</a></li>
+        </ul>
+      </nav>
+
+      {{ content }}
+
+      <br>
+
+    </section>
+
+    <footer>
+      <p>
+        <small>This is a personal page, and not an official UNICAMP or Institute of Computing page. Its contents are of entire responsibility of Emanuel Felipe Duarte.
+        <br>
+        Licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license noopener noreferrer">CC BY-NC 4.0</a>. Last updated on {{ site.time | date_to_string: "ordinal", "US" }}.</small>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

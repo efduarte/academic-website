@@ -1,0 +1,123 @@
+main:
+
+  - title: InstInt
+    authors: "LedsLife, Emanuel Felipe Duarte and Yusseli L. M. Mendoza, supervised by M. Cecília C. Baranauskas"
+    year: 2023
+    image: ./assets/img/instint.jpg
+    notes: 'Interactive installation that allows children and adults to create a sound “composition” by playing light strips that represent sounds of musical instruments (drums, flute, organ, clavinet and bass). The installation produces light and sound effects and has a robotic structure that moves. InstInt is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    publications:
+      - TR-IC-23-07
+      - duarte2018instint
+
+  - title: Aquarela Virtual
+    authors: "Emanuel Felipe Duarte, Yusseli L. M. Mendoza, M. Jêsca N. de Queiroz, Josiane R. O. G. Pimenta, José V. da Silva, e Luã M. Muriana, supervisionados por M. Cecília C. Baranauskas"
+    year: 2021
+    notes: 'Aquarela Virtual is a system designed for the remote context imposed by the Covid-19 pandemic. It allows children to use homemade toys, enriched with QR codes, to interact with each other in animated scenarios based on excerpts and elements from the Aquarela song. Aquarela Virtual is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/aquarela-virtual.jpg
+    publications:
+      - duarte2022interacoes
+      - mendoza2022evaluating
+      - TR-IC-22-01
+      - pimenta2022interacao
+      - pimenta2022investigando
+      - TR-IC-22-03
+      - TR-IC-22-04
+
+  - title: Temporário
+    authors: "Carlos A. M. de Sousa, Tiago L. Chaves, Victor F. Ferrari, and Vinicius C. Espindola, supervised by Yusseli L. M. Mendoza, Emanuel Felipe Duarte and M. Cecília C. Baranauskas"
+    year: 2018
+    notes: 'Interactive installation where an educational video reacts according to how many people watch, increasing its speed or rewinding in black and white. Temporário is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/temporario.jpg
+    publications:
+      - baranauskas2021designing
+      - duarte2020instime
+      - duarte2022design
+      - pimenta2022ubiaccess
+      - pimenta2022ubiaccess2
+      - pimenta2021investigating
+      - brennand2019evaluating
+      - duarte2020pincello
+      - TR-IC-20-03
+
+
+  - title: CronoBit
+    authors: "Arthur B. Fruch, Luciano G. Zago, Yago L. Barbosa, Luis F. S. Lacalle, and Giovanne L. D. P. Mariano, supervised by Yusseli L. M. Mendoza, Emanuel Felipe Duarte and M. Cecília C. Baranauskas"
+    year: 2018
+    notes: 'Interactive installation in the form of a musical instrument that allows the visitor to experience the passage of time in the process of erosion or evolution of a species through two drums. CronoBit is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/cronobit.jpg
+    publications:
+      - baranauskas2021designing
+      - duarte2022design
+      - duarte2020instime
+      - brennand2019evaluating
+      - duarte2020pincello
+      - TR-IC-20-03
+
+  - title: Lobo-Guará
+    authors: "Caio Krauthamer, Guilherme L. H. Rincão, Leandro A. F. Magalhães, Marcio I. O. C. Filho, Thomas J. Yamasaki, and Victor H. C. Teixeira, supervised by Emanuel Felipe Duarte and M. Cecília C. Baranauskas"
+    year: 2018
+    notes: 'An eye-catching interactive animal built with cardboard and synthetic fabric, with hidden buttons and sensors that, when discovered and activated, present various audiovisual information about the wild animal. Lobo-Guará is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/lobo-guara.jpg
+    publications:
+      - duarte2022experience
+      - duarte2019magic
+      - duarte2018maned
+      - duarte2018interart
+      - pimenta2021evaluating
+      - brennand2018evaluating
+      - duarte2020pincello
+      - TR-IC-19-03
+
+  - title: Monolito
+    authors: "Carlos A. F. F. Carvalho, Giovani N. Pereira, Ignacio E. Ribeiro, Luan E. Ferreira, Nathália H. Kuromiya, and Seong E. Kim, supervised by Emanuel Felipe Duarte and M. Cecília C. Baranauskas"
+    year: 2018
+    notes: 'Interactive installation inspired by the movie “2001: A Space Odyssey” by Stanley Kubrick. A miniature monolith with motion sensors allows interaction with scenes from the film projected in a dark room by a 360° projector. Monolito is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/monolito.jpg
+    publications:
+      - duarte2022experience
+      - duarte2019magic
+      - brennand2018evaluating
+      - duarte2018interart
+      - pimenta2021evaluating
+      - duarte2020pincello
+      - TR-IC-19-03
+
+  - title: Memoção
+    authors: "Daniel H. P. Oliveira, João P. Cardenuto, João V. F. Silva, Mateus S. Kimura, Matheus S. Ataide, Pedro S. P. C. Gomes, and Vitor K. Aoki, supervised by Emanuel Felipe Duarte and M. Cecília C. Baranauskas"
+    year: 2018
+    notes: 'Interactive mysterious black box with an opening to insert the hand and feel different textures, each one evoking sounds and images of Internet memes with a feeling related to the texture played. Memoção is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/memocao.jpg
+    publications:
+      - duarte2022experience
+      - duarte2019magic
+      - pimenta2022ubiaccess
+      - duarte2018interart
+      - pimenta2022ubiaccess2
+      - pimenta2021evaluating
+      - pimenta2021investigating
+      - brennand2018evaluating
+      - duarte2020pincello
+      - TR-IC-19-03
+
+  - title: Pincello
+    authors: "Emanuel Felipe Duarte, supervised by M. Cecília C. Baranauskas"
+    year: 2018
+    notes: 'an electronic kit for prototyping interactive installations. It consists of hardware components such as microcontrollers, sensors, actuators, and original online documentation with practical tutorials. Pincello is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/pincello.jpg
+    publications:
+      - duarte2020pincello
+      - duarte2022experience
+      - duarte2020instime
+
+  - title: UbiAccess
+    authors: "Josiane R. O. G. Pimenta, supervised by M. Cecília C. Baranauskas and in collaboration with Emanuel Felipe Duarte"
+    year: 2021
+    notes: 'An evaluation instrument to assess equitable access in ubiquitous environments. The instrument consists of 5 areas (Environment, Information, Multimedia Resources, Personal e Security & Privacy) and 37 recommendations to be verified by the evaluator. UbiAccess is a product of the [Socioenactive Systems project](https://socioenactive.ic.unicamp.br/).'
+    image: ./assets/img/ubiaccess.jpg
+    publications:
+      - pimenta2022ubiaccess
+      - pimenta2022investigando
+      - pimenta2022ubiaccess2
+      - pimenta2022interacao
+      - pimenta2021investigating
+      - TR-IC-22-03

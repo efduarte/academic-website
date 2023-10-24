@@ -1,0 +1,50 @@
+---
+---
+<p class="type {{ entry.type }}">
+	<small>
+		{% if entry.type == 'article' %}
+		<span>Journal Article</span>
+		{% elsif entry.type == 'inproceedings' %}
+		<span>Paper in Proceedings</span>
+		{% elsif entry.type == 'incollection' %}
+		<span>Book Chapter</span>
+		{% elsif entry.type == 'techreport' %}
+		<span>Technical Report</span>
+		{% elsif entry.type == 'mastersthesis' %}
+		<span>Master's Thesis</span>
+		{% elsif entry.type == 'phdthesis' %}
+		<span>PhD Thesis</span>
+		{% endif %}
+	</small>
+</p>
+
+{% if entry.prize %}
+<p class="prize">
+	<small>
+		<i class="fa fa-sm fa-trophy"></i>
+		{{ entry.prize }}
+	</small>
+</p>
+{% endif %}
+
+<p>
+	<span class="authors">{{ entry.author | replace: ' and ', '; '}}.</span>
+	<strong>{{ entry.title }}</strong>.
+	<span>
+		{% if entry.journal %}
+			{{ entry.journal }}.
+		{% elsif entry.booktitle %}
+			{{ entry.booktitle }}.
+		{% elsif entry.institution %}
+			{{ entry.institution }}.
+		{% elsif entry.school %}
+			{{ entry.school }}.
+		{% endif %}
+	</span>
+	{{ entry.year }}.
+	{% if entry.doi %}
+	DOI: <a href="https://doi.org/{{entry.doi}}">{{ entry.doi }}</a>
+	{% elsif entry.url %}
+	<a href="{{entry.url}}">{{ entry.url }}</a>
+	{% endif %}
+</p>
