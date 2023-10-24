@@ -6,4 +6,5 @@
 .sass-cache
 _site
 Gemfile.lock
+commands.txt
 vendor/
