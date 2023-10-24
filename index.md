@@ -12,12 +12,12 @@ description: "I'm a Professor at the Computing Institute (IC) of Universidade Es
 
 - **Human-Computer Interaction**
 	- Ubiquitous Computing (*i.e.*, tangible, full-body, IoT interactions)
-	- Participatory Design (*i.e.*, co-design, co-authorship, methods and instruments) 
+	- Participatory Design (*i.e.*, co-design, methods and instruments) 
 	- Interactive Installations (*i.e.*, educational, entertainment, artistic intervetions)
 
 - **Informatics in Education**
 	- Learning Theories (*i.e.*, constructionism, learning by doing, embodiment)
 	- Computational Thinking (*i.e.*, not only "learning to program", but understanding and critical appropriation of technology)
 
-I'm also open to explore new topics within or adjacent to these areas through project collaborations
+I'm also open to explore new topics through project collaborations
 or by supervising scientific initiation, master's and Ph.D students.
